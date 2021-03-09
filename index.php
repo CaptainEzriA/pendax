@@ -24,7 +24,7 @@
 			$encoursTot=comptageTot(0);
 			echo "Bonjour $login,<br/>";
 			if($encours==0)
-				echo "Tu n'as pas de pendu en cours actuellement, génères en un! coucou hibou<br/>";
+				echo "Tu n'as pas de pendu en cours actuellement, génères en un! <br/>";
 			else
 				echo"Tu as actuellement $encours pendus en cours <br/>";
 			if($termine==0)
