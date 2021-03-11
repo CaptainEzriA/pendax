@@ -28,7 +28,9 @@
 
 					  foreach($pend as $pendu)
 					  {
-						  echo'<div class="large-10 small-12 large-offset-1 pendus">'.$pendu[0].'</div>';
+						echo'<div class="row large-10 small-12 large-offset-1 blocpendus"><div class="grid-x grid-margin-x"><div class="columns large-10 small-10 pendus">'.$pendu[0];
+						echo'</div><div class="columns large-2 small-2 dates">[19.03.2021]</br>[pseudo]</div>';
+						echo'<br/><button class="buttonpendu">Le proposer</button></div></div>';
 					  }
 					  echo'</div></div>';
 			  }

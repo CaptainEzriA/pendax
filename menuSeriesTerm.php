@@ -1,8 +1,8 @@
 <div class="listependu ">
   <div class="grid-x grid-margin-x">
     <div class="cell medium-2">
-        <p style="text-align : center">Sélectionner la série</p>
-		
+        <p class="centre">Sélectionner une série</p>
+		<h4>Mes séries favorites</h4>
       <ul class="vertical tabs menuseries" data-tabs id="example-tabs">
 	  	
 	  	<?php
@@ -17,3 +17,7 @@
 					}
 		  ?>
       </ul>
+	  <p>Gérer mes séries favorites</p>
+	  <h4>Autre série</h4>
+	  <p>[barre de recherche]</p>
+	  <p>Série absente ?</p>

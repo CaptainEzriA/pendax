@@ -54,7 +54,7 @@
 
 								foreach($pend as $pendu)
 								{
-									echo'<div class="large-10 small-12 large-offset-1 pendus">'.$pendu[0];
+									echo'<div class="large-10 small-12 large-offset-1 blocpendus">'.$pendu[0];
 									echo'<br/><button class="buttonpendu">Continuer</button><button class="buttonpendu">Terminer</button>';
 									echo '</div>';
 								}

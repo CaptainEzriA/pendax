@@ -43,7 +43,7 @@
           <li >
             <?php echo "<a href=\"#\">$login</a>"; ?>
             <ul class="menu vertical">
-              <li><a href="#">Mon profil</a></li>
+              <li><a href="profil.php">Mon profil</a></li>
               <li><a href="#">Se déconnecter</a></li>
             </ul>
           </li>
