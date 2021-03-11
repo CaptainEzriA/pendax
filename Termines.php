@@ -52,6 +52,7 @@
 					  {
 						  echo'<div class="row large-10 small-12 large-offset-1 blocpendus"><div class="grid-x grid-margin-x"><div class="columns large-10 small-10 pendus">'.$pendu[0];
 						  echo'</div><div class="columns large-2 small-2 dates">[19.03.2021]</div>';
+						  echo'</div><div class="columns large-2 small-2 dates">19.03.2021</div>';
 						  echo'<br/><button class="buttonpendu">Le reproposer</button></div></div>';
 					  }
 					  echo'</div></div>';

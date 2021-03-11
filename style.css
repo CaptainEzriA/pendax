@@ -97,11 +97,16 @@ input{background-color:var(--fond-bouton);
 
 .tabs-title > a {color:black;}
 
-.pendus{background-color:var(--fond) ;
+.blocpendus{background-color:var(--fond) ;
     border-radius : 10px;
 margin-bottom : 1%;
 margin-left : 1%;
 padding-left:1%;}
+
+.pendus{padding-left:1%;
+margin-bottom:2%}
+
+.dates{text-align : right;}
 
 .nomserie{color:grey;}
 
@@ -168,3 +173,4 @@ margin:1%;
     width : 80%;
 }
 
+.centre{text-align:center;}
