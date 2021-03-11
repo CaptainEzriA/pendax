@@ -31,7 +31,7 @@
 				echo"Tu n'as pas encore fait deviner de pendu<br/><br/>";
 			else
 				echo "Au total, tu as déjà fait deviner $termine pendus<br/><br/>";
-			echo "En prenant en compte tous les utilisateurs, $terminTot pendus ont été devinés et $encoursTot sont en cours coucou pas hibou";
+			echo "En prenant en compte tous les utilisateurs, $terminTot pendus ont été devinés et $encoursTot sont en cours";
 		}
 		
 		else

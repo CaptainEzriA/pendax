@@ -17,7 +17,7 @@
 	<div class="listependu ">
   <div class="grid-x grid-margin-x">
     <div class="cell medium-2">
-		
+		<p class="centre">Sélectionner une série</p>
       <ul class="vertical tabs menuseries" data-tabs id="example-tabs">
 	  	<?php
 		  		
@@ -49,7 +49,9 @@
 
 					  foreach($pend as $pendu)
 					  {
-						  echo'<div class="large-10 small-12 large-offset-1 pendus">'.$pendu[0].'</div>';
+						  echo'<div class="row large-10 small-12 large-offset-1 blocpendus"><div class="grid-x grid-margin-x"><div class="columns large-10 small-10 pendus">'.$pendu[0];
+						  echo'</div><div class="columns large-2 small-2 dates">19.03.2021</div>';
+						  echo'<br/><button class="buttonpendu">Le reproposer</button></div></div>';
 					  }
 					  echo'</div></div>';
 			  }

@@ -23,7 +23,7 @@
 				<div class="listependu ">
 				<div class="grid-x grid-margin-x">
 				<div class="cell medium-2">
-					
+				<p class="centre">Sélectionne une série</p>	
 				<ul class="vertical tabs menuseries" data-tabs id="example-tabs">
 					<?php
 								$tab=seriestotlog($login,0);
